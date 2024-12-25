@@ -1,14 +1,6 @@
 name: Get Branch
 
-on: 
-  push:
-    branches:
-      - main
-      - test
-  pull_request:
-    branches:
-      - main
-      - test
+on: [push]
 
 jobs:
   deploy:
