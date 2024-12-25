@@ -1,6 +1,6 @@
 name: Markdown Output
 
-on: push
+on: workflow_dispatch
 
 jobs:
   markdown:
