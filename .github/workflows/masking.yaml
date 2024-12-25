@@ -1,6 +1,6 @@
 name: Masking secrets
 
-on: push
+on: workflow_dispatch
 
 jobs:
   generate-a-secret-output:
@@ -15,3 +15,4 @@ jobs:
       - name: Use that secret output (protected by a mask)
         run: |
           echo "the secret number is ${{ steps.sets-a-secret.outputs.secret-number }}"
+    
