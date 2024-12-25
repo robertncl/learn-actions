@@ -1,6 +1,6 @@
 ### repo for learning github actions
 
-* Base on this book
+* Base on this recent book 
 
 [GitHub Actions in Action](https://learning.oreilly.com/library/view/github-actions-in/9781633437302/)
 
