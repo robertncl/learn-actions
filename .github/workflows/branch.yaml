@@ -1,0 +1,10 @@
+name: Get Branch
+
+on: workflow_dispatch
+
+jobs:
+  deploy:
+    if: ${{ github.ref == 'refs/heads/test' }}
+    runs-on: ubuntu-latest
+    steps:
+      - run: echo "Deploying branch ${{ github.ref }}"
