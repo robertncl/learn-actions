@@ -4,7 +4,7 @@ on: [push]
 
 jobs:
   deploy:
-    if: ${{ github.ref == 'refs/heads/main' }}
+    if: ${{ github.ref == 'refs/heads/test' }}
     runs-on: ubuntu-latest
     steps:
       - run: echo "Deploying branch ${{ github.ref }}"
