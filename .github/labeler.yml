@@ -1,13 +1,6 @@
-bug:
-  - paths:
-      - 'src/**/*.js'
-      - 'tests/**/*.js'
-documentation:
-  - paths:
-      - 'docs/**/*.md'
-enhancement:
-  - paths:
-      - 'src/**/*.ts'
 question:
   - paths:
       - 'README.md'
+main:
+  - paths:
+      - 'src/main/**'
