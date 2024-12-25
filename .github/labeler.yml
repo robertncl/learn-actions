@@ -1,9 +1,13 @@
 bug:
-  - 'src/**/*.js'
-  - 'tests/**/*.js'
+  - paths:
+      - 'src/**/*.js'
+      - 'tests/**/*.js'
 documentation:
-  - 'docs/**/*.md'
+  - paths:
+      - 'docs/**/*.md'
 enhancement:
-  - 'src/**/*.ts'
+  - paths:
+      - 'src/**/*.ts'
 question:
-  - 'README.md'
+  - paths:
+      - 'README.md'
