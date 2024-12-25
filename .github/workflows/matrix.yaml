@@ -9,11 +9,11 @@ jobs:
       max-parallel: 3
       matrix:
         os_version: [macos-latest, ubuntu-latest]
-        node_version: [12, 14, 16]
+        node_version: [16, 18, 20, 22]
   
     name: My first job
     runs-on: ${{ matrix.os_version }}
     steps:
-      - uses: actions/setup-node@v3.6.0
+      - uses: actions/setup-node@v4
         with:
           node-version: ${{ matrix.node_version }}
