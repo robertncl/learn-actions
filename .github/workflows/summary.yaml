@@ -1,6 +1,6 @@
 name: Generate Summary
 
-on: push
+on: workflow_dispatch
 
 jobs:
   generate-summary:
