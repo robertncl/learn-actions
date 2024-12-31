@@ -1,5 +1,9 @@
 #### repo for learning github actions
 
+[![Get Branch](https://github.com/robertncl/learn-actions/actions/workflows/branch.yaml/badge.svg)](https://github.com/robertncl/learn-actions/actions/workflows/branch.yaml) [![Matrix workflow](https://github.com/robertncl/learn-actions/actions/workflows/matrix.yaml/badge.svg)](https://github.com/robertncl/learn-actions/actions/workflows/matrix.yaml) [![Markdown Output](https://github.com/robertncl/learn-actions/actions/workflows/markdown.yaml/badge.svg)](https://github.com/robertncl/learn-actions/actions/workflows/markdown.yaml)
+
+
+
 * Base on this book 
 
 
