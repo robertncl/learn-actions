@@ -7,7 +7,7 @@ jobs:
   container-build-job:
     runs-on: ubuntu-latest
     container:
-      image: mcr.microsoft.com/dotnet/sdk:6.0
+      image: mcr.microsoft.com/dotnet/sdk:8.0
     steps:
       - uses: actions/checkout@v4
       - name: Build
